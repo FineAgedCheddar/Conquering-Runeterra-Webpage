@@ -13,7 +13,7 @@ import { SearchProvider } from './context/SearchContext.jsx';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <SearchProvider>
-      <BrowserRouter basename ="https://main--conqueringrunterra.netlify.app">
+      <BrowserRouter basename ="/">
         <Routes>
           <Route path ="/" element={<Taskbar />}>
             <Route index = {true} path = "/" element={<ViewAll />} />
