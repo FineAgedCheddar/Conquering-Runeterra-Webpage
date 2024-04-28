@@ -2,7 +2,7 @@ import { Outlet, Link } from "react-router-dom";
 import { useState } from "react";
 import { useContext } from 'react';
 import { SearchContext } from '../context/SearchContext';
-import { supabase } from "../Client.js;
+import { supabase } from "../Client.js";
 import "./Taskbar.css";
 
 const Taskbar = () => {
