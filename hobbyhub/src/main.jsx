@@ -15,9 +15,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <SearchProvider>
       <BrowserRouter>
         <Routes>
-          <Route path ="/" element={<Taskbar />}>
-            <Route index = {true} path = "/" element={<ViewAll />} />
-          </Route>
+          <Route path ="/" element={<Taskbar />}/>
+          <Route index = {true} path = "/" element={<ViewAll />} />
           <Route index = {false} path = "/createPost" element = {<CreatePost />} />
           <Route index = {false} path = "/postDetails/:id" element = {<PostDetails />} />
           <Route index = {false} path = "/editPost/:id" element = {<EditPost />} />
