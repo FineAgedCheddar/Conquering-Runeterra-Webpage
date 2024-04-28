@@ -7,6 +7,8 @@ import Taskbar from "./Components/Taskbar.jsx";
 import CreatePost from "./Components/CreatePost.jsx";
 import PostDetails from './Components/PostDetails.jsx';
 import EditPost from './Components/EditPost.jsx';
+import "./App.css";
+
 
 function App() {
  
