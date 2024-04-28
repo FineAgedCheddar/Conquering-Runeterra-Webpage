@@ -31,12 +31,12 @@ function App() {
   ]);
 
   return (
-    <Router>
+  
       <SearchProvider>
         <Taskbar />
         {element}
       </SearchProvider>
-    </Router>
+ 
   )
 }
 
