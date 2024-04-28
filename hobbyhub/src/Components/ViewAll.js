@@ -3,7 +3,7 @@ import { supabase } from "../Client.js";
 import { Link } from "react-router-dom";
 import "./ViewAll.css";
 import { useContext } from 'react';
-import { SearchContext } from '../context/SearchContext';
+import { SearchContext } from '../context/SearchContext.js';
 
 const ViewAll = () => {
     
