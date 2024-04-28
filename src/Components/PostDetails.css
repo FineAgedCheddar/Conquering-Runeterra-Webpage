@@ -1,0 +1,79 @@
+.full-post{
+    margin-top: 10px;
+}
+.post-details{
+    padding: static;
+    background-color: #BE9F74;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.post-details *{
+    margin-left: 3%;
+    
+}
+.post-details img{
+    width: 60%;
+    height: 20%;
+}
+.comments {
+    background-color: #BE9F74;
+    padding-bottom: 20px;
+}
+.comments *{
+    margin-left: 3%;
+}
+.comments h3{
+    padding-top: 30px;
+}
+.upvote-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0;
+}
+.upvote-container h4{
+    margin-left: 10px;
+    width: 100px;
+}
+.increase-count{
+   padding: 10px;
+   background-color: #BE9F74;
+   font-size: 30px;
+}
+.increase-count:hover{
+    outline: none;
+}
+.edit-delete{
+    display: flex; 
+    flex-direction: row;
+    margin-left: 0;
+    margin-right: 45px;
+    justify-content: flex-end;
+}
+.edit-delete *{
+    background-color: #5178AE;
+    margin-left: 15px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+.leave-comment{
+    display: flex;
+    align-items: center;
+}
+.user-comment{
+    background-color: white;
+    border: none;
+    width: 80%;
+    color: black;
+    height: 20px;
+}
+.submit-comment{
+    background-color: #5178AE;
+    color: white;
+    border: none;
+    margin-left: 5px;
+    padding: 10px 15px;
+}
