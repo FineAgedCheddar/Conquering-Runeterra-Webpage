@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Routes>
           <Route path ="/" element={<Taskbar />}>
             <Route index = {true} path = "/" element={<ViewAll />} />
-          <Route/>
+          </Route>
           <Route index = {false} path = "/createPost" element = {<CreatePost />} />
           <Route index = {false} path = "/postDetails/:id" element = {<PostDetails />} />
           <Route index = {false} path = "/editPost/:id" element = {<EditPost />} />
