@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useContext } from 'react';
 import { SearchContext } from '../context/SearchContext';
 import { supabase } from "../Client.js";
