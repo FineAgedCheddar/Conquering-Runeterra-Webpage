@@ -1,5 +1,4 @@
-import { useState, useEffect } from 'react'
-import './App.css'
+import { BrowserRouter as Router } from 'react-router-dom';
 import ViewAll from './Components/ViewAll'
 import { useRoutes } from "react-router-dom"
 import { SearchProvider } from './context/SearchContext.jsx';
@@ -13,10 +12,6 @@ function App() {
  
   // Sets up routes
   let element = useRoutes([
-    {
-      path: "/",
-      element:<Taskbar />
-    },
     {
       path:"/",
       element: <ViewAll />
@@ -35,14 +30,15 @@ function App() {
     }
   ]);
 
-
   return (
-      <>
-        <SearchProvider>
-          {element}
-        </SearchProvider>
-      </>
+    <Router>
+      <SearchProvider>
+        <Taskbar />
+        {element}
+      </SearchProvider>
+    </Router>
   )
 }
 
+export default App
 export default App
